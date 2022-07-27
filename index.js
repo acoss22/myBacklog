@@ -1,6 +1,6 @@
 var myNodelist = document.getElementsByTagName("li");
 
-function Add() {
+function AddButtonClick() {
     var categoryToAdd = document.getElementById("category").value;
     if(categoryToAdd === ""){
         alert("You must write something!");
